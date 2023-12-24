@@ -1,0 +1,155 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ #title .container-fluid{
+    font-family:'Ubuntu', sans-serif;
+     text-align:left;
+     padding:3% 15% 7%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+    padding :6% 0;
+}
+body{ 
+    font-family: 'Ubuntu', sans-serif;;
+    text-align: center;
+}
+h3{ 
+    font-size: 2rem;
+    line-height: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+p{
+    font-weight: lighter;
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 7% 15%;
+    text-align: center;
+}
+.colored{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.white{
+    background-color: #fff;
+}
+/* navbar */
+.navbar-brand{ 
+font-family:'Ubuntu', sans-serif;;
+ font-size: 2.8rem;
+font-weight:bold; 
+margin: .5rem;
+color: #fff;
+}
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+}
+.collapse{ 
+position: absolute;
+right:20px;
+}
+.nav-link a{
+    text-decoration: none;
+    padding: 2rem;
+    }
+.nav-link {
+    margin: 0 2rem;
+    padding:  0;
+    display: flex;
+    font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:12;
+    color: #e3d9d9;
+}
+.nav-link:hover{
+    color:#fff;
+}
+.form-inline {  
+     display:inline-flex;
+     padding: 1rem;
+}
+/* title */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position:relative;
+  }
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* features */
+#features{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    width: 90%;
+}
+.feature-box{
+    padding: 4.5%;
+}
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;}
+     
+
+/* testimonial*/
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+.testimonial{
+    padding: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100% ;
+    margin: 20px;
+}
+#press{
+    background-color:#ef8172;
+}
+.press-logo{
+    width: 25%;
+    padding:2%;
+}
+#pricing{
+    padding: 50px;
+} 
+/* footer */
+.ficon{
+    width:5%;
+    padding:1%;
+}
+.fheading{
+ font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+line-height: 1.5;
+} 
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .collapse{
+        position:relative;
+    }
+    .title-image{
+      width:40%;
+        position:static;
+        transform: rotate(0);
+        margin: 40 20 40 20 ;
+    }    
+}   
+ 
